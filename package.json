@@ -1,0 +1,21 @@
+{
+  "name": "lucymono-vscode-theme",
+  "displayName": "Lucymono Theme",
+  "description": "Monokai Pro x Lucy Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lucymono",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lucymono-color-theme.json"
+      }
+    ]
+  }
+}
